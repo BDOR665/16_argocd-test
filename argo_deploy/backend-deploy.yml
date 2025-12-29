@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: boot-container
-        image: bdor665/argo_boot:latest
+        image: bdor665/argo_boot:4
         imagePullPolicy: Always
         ports:
         - containerPort: 7777
